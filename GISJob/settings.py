@@ -17,13 +17,12 @@ NEWSPIDER_MODULE = 'GISJob.spiders'
 ITEM_PIPELINES = {'GISJob.pipelines.GisjobPipeline': 300}
 
 COOKIES_ENABLED = False
-
 LOG_LEVEL = 'INFO'
 
 RANDOMIZE_DOWNLOAD_DELAY = True
 
 DOWNLOAD_DELAY = 0
-
+DOWNLOAD_TIMEOUT = 30
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'GISJob (+http://www.yourdomain.com)'
 
